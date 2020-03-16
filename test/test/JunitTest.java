@@ -117,11 +117,11 @@ public class JunitTest {
         assertEquals(Money.dollar(20), result);
     }
 
-    @Test
-    public void testPlusSameCurrencyReturnsMoney(){
-        Expression sum = Money.dollar(1).plus(Money.dollar(1));
-        assertTrue(sum instanceof Money);
-    }
+//    @Test
+//    public void testPlusSameCurrencyReturnsMoney(){
+//        Expression sum = Money.dollar(1).plus(Money.dollar(1));
+//        assertTrue(sum instanceof Money);
+//    }
 
     public void assertEquals(Object a, Object b){
         Assertions.assertEquals(a, b);

@@ -37,8 +37,6 @@ public class Money implements Expression {
         return currency;
     }
 
-
-
     @Override
     public boolean equals(Object o) {
         Money money = (Money) o;
